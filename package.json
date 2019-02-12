@@ -1,0 +1,28 @@
+{
+  "name": "ajshiff.github.io",
+  "version": "1.0.0",
+  "description": "My github homepage",
+  "main": "./build-process/main.js",
+  "scripts": {
+    "start": "node ./build-process/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajshiff/ajshiff.github.io.git"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "portfolio",
+    "page",
+    "builder"
+  ],
+  "author": "Aaron Shiffler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajshiff/ajshiff.github.io/issues"
+  },
+  "homepage": "https://github.com/ajshiff/ajshiff.github.io#readme",
+  "dependencies": {}
+}
