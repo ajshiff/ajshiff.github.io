@@ -4,7 +4,7 @@
         "hours": 20,
         "link": "https://github.com/ajshiff/portfolio-builder",
         "timeframe": "February 2019",
-        "description": "This project was built to generate this webpage. I am able to configure a JSON with an array of objects containing details of the projects I've worked on in the past, then let the program generate an HTML page for me highlighting those projects. I didn't want it to be a one-run-n-done, so I built it to be a command line node program, that anyone can use as long as they configure their ProjectData.json file.",
+        "description": "This project was built to generate this webpage. I am able to configure a JSON with an array of objects containing details of the projects I've worked on in the past, then let the program generate an HTML page for me highlighting those projects. I didn't want it to be a one-run-n-done, so I built it to be a command line node program, that anyone can use as long as they configure their ProjectData.json file. <a href=\"https://github.com/ajshiff/ajshiff.github.io/blob/master/ProjectData.json\">Take a look at the JSON form of this HTML file here.</a>",
         "imgSrc": "./assets/portfolio_builder.png",
         "imgAlt": "screenshot of portfolio builder rendered html page",
         "skills": [
@@ -20,8 +20,8 @@
         "link": "https://ajshiff.github.io#canvas-api-wrapper",
         "timeframe": "February 2019 - Current",
         "description": "In order to save thousands of dollars, and hundreds of hours over the next few years, I am working with a few team memebers to design a library that abstracts the HTTP requests we send to Canvas, so that users can think in terms of raw Canvas API calls, without having to worry about setting request headers, parsing response data, or breaking the API-Call-Limit. This is a fully fledged project with official SRS and SDD Documents. This will eventually become a Public NuGet package that anyone can include. As of right now, there are no publically availible documents I can link to.",
-        "imgSrc": "./assets/canvas_api_wrapper.png",
-        "imgAlt": "canvas api wrapper image",
+        "imgSrc": "./assets/public_domain_generic_csharp_logo.png",
+        "imgAlt": "image for canvas api wrapper",
         "skills": [
             "C#",
             ".NET Core",
@@ -36,7 +36,7 @@
         "timeframe": "January 2019",
         "description": "This tool generates an actionable report that identifies broken quiz questions in the university's LMS. In Winter 2019 semeter, many university quiz questions were broken with a variety of bugs that rendered the question unanswerable. This program downloads all quiz question data, scans the content for these broken qualities, and generates a report. This helped the university diagnose the scope of the issue, and decide the best course of action. I built the program to have one configurable file that would define all scan sequences and patterns to run on the quizzes. This allowed for definitions to be easily updated or added as new issues were found.",
         "imgSrc": "./assets/canvas_quiz_data_reporter.png",
-        "imgAlt": "canvas quiz data reporter image",
+        "imgAlt": "image for canvas quiz data reporter",
         "skills": [
             "NodeJs",
             "ES6",
@@ -51,7 +51,7 @@
         "timeframe": "December 2018 - Current",
         "description": "This tool has the potential to save course designers and professors at the university tens of thousands of dollars per year collectively. It gives the user a collection of html elements that guides the user into designing good content, and tailors that content to their current need using LTI. I inherited this project from a former coworker, so I had to learn the overall design of the project. I now have the responsibility to add and update features in the tool. Right now, a private version of the tool is the code being developed on, so the code linked to is an outdated version.",
         "imgSrc": "./assets/course_design_toolbox.png",
-        "imgAlt": "course design toolbox image",
+        "imgAlt": "image for course design toolbox",
         "skills": [
             "Angular",
             "NodeJs",
@@ -70,7 +70,7 @@
         "timeframe": "November 2019",
         "description": "In order to create a visual of what projects our team is currently working on, I created this webpage which organizes all of our team's repositories into three cover-all categories: 'In Development', 'In Maintainance', and 'closed'. It dynamically generates the list of repositories our team owns based off of the GitHub API, then searches those repository's meta data to determine which section it fits best in. This was especially helpful when our office was absorbed by the university's IT department, and we needed a report of all past and current projects.",
         "imgSrc": "./assets/repository_status_page.png",
-        "imgAlt": "repository status page image",
+        "imgAlt": "image for repository status page",
         "skills": [
             "ES6",
             "HTML",
@@ -84,7 +84,7 @@
         "timeframe": "October 2018 - November 2018",
         "description": "I improved the memory efficiency of our team's Canvas-link-finder tool by 93%. I also generalized the tool to be able to do more than search for links. When put up to the task of searching over 15,000 courses for specific details of items, it only used 600MBs of memory at any given time, compared to the 9GBs the previous tool required. It would run searches on 5000 courses in parallel. I reduced the memory footprint by searching the response data as it is recieved, and only keeping the match data so that irrelevant data would fall out of scope at the earliest point possible.",
         "imgSrc": "./assets/canvas_everything_finder.png",
-        "imgAlt": "canvas everything finder image",
+        "imgAlt": "image for canvas everything finder",
         "skills": [
             "NodeJs",
             "ES6",
@@ -100,7 +100,7 @@
         "timeframe": "July 2018 - August 2018",
         "description": "I saved Pathway Worldwide thousands of dollars by programatically transforming over 7,000 csvs' content from one format into their new updated format. One of the most difficult parts of this project was editing their HTML snippets to follow their new format and styling standards. This was difficult because many of their HTML snippets each followed different standards. The algorithm I defined worked for 99% of their files, leaving very few that needed to be fixed by hand. The description of the project was updated by the stakeholder almost daily. If I were to redo this project, I would have taken a more agile approach to development by having definition modules, which would have kept selector logic seperate from core-alteration logic, thus saving time in the long run.",
         "imgSrc": "./assets/mass_maintainance_of_pathway_worldwide_resources.png",
-        "imgAlt": "mass maintainance of pathway worldwide resources image",
+        "imgAlt": "image for mass maintainance of pathway worldwide resources",
         "skills": [
             "NodeJs",
             "ES6",

@@ -1,0 +1,241 @@
+<!DOCTYPE html><html><head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Aaron Shiffler&apos;s Portfolio">
+  <meta name="keywords" content="portfolio, web development, node, c#, c++, cpp">
+  <meta name="author" content="Aaron Shiffler">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./portfolioBuilder.css">
+</head>
+<!-- START BODY -->
+<body class="portfolioBuilder">
+  <!-- START INTRO DIV -->
+  <div id="intro" class="centerContent">
+    <div class="profilePictureDiv">
+      <img class="profilePicture" src="./assets/20190207_Shiffler_w400h400.png">
+    </div>
+    <h2 class="myName">Aaron Shiffler</h2>
+    <p class="myTag">@ajshiff</p>
+    <div><a href="https://github.com/ajshiff">GitHub</a>&#xA0;<a href="https://www.npmjs.com/~ajshiff">NPM</a></div>
+    <hr>
+  </div>
+  <!-- END INTRO DIV -->
+  <!-- START PROJECTS DIV -->
+  <div class="projects" id="projects">
+  
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="https://github.com/ajshiff/portfolio-builder">
+      <img class="pPhoto" src="./assets/portfolio_builder.png" alt="screenshot of portfolio builder rendered html page">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="https://github.com/ajshiff/portfolio-builder">
+        <div class="pName">Portfolio Builder</div>
+      </a><br>
+      <span class="pHours">20</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">February 2019</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        This project was built to generate this webpage. I am able to configure a JSON with an array of objects containing details of the projects I&apos;ve worked on in the past, then let the program generate an HTML page for me highlighting those projects. I didn&apos;t want it to be a one-run-n-done, so I built it to be a command line node program, that anyone can use as long as they configure their ProjectData.json file. <a href="https://github.com/ajshiff/ajshiff.github.io/blob/master/ProjectData.json">Take a look at the JSON form of this HTML file here.</a>
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">NodeJs</div>
+<div class="pSkill">ES6</div>
+<div class="pSkill">HTML5</div>
+<div class="pSkill">CSS3</div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="https://ajshiff.github.io#canvas-api-wrapper">
+      <img class="pPhoto" src="./assets/public_domain_generic_csharp_logo.png" alt="image for canvas api wrapper">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="https://ajshiff.github.io#canvas-api-wrapper">
+        <div class="pName"><span id="canvas-api-wrapper">Canvas API Wrapper</span></div>
+      </a><br>
+      <span class="pHours">18</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">February 2019 - Current</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        In order to save thousands of dollars, and hundreds of hours over the next few years, I am working with a few team memebers to design a library that abstracts the HTTP requests we send to Canvas, so that users can think in terms of raw Canvas API calls, without having to worry about setting request headers, parsing response data, or breaking the API-Call-Limit. This is a fully fledged project with official SRS and SDD Documents. This will eventually become a Public NuGet package that anyone can include. As of right now, there are no publically availible documents I can link to.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">C#</div>
+<div class="pSkill">.NET Core</div>
+<div class="pSkill">Project Design</div>
+<div class="pSkill">HTTP Requests</div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="https://github.com/byuitechops/canvas-quiz-data-reporter">
+      <img class="pPhoto" src="./assets/canvas_quiz_data_reporter.png" alt="image for canvas quiz data reporter">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="https://github.com/byuitechops/canvas-quiz-data-reporter">
+        <div class="pName">Canvas Quiz Data Reporter</div>
+      </a><br>
+      <span class="pHours">35</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">January 2019</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        This tool generates an actionable report that identifies broken quiz questions in the university&apos;s LMS. In Winter 2019 semeter, many university quiz questions were broken with a variety of bugs that rendered the question unanswerable. This program downloads all quiz question data, scans the content for these broken qualities, and generates a report. This helped the university diagnose the scope of the issue, and decide the best course of action. I built the program to have one configurable file that would define all scan sequences and patterns to run on the quizzes. This allowed for definitions to be easily updated or added as new issues were found.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">NodeJs</div>
+<div class="pSkill">ES6</div>
+<div class="pSkill">Async</div>
+<div class="pSkill">Data Extraction</div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="https://github.com/byuitechops/design-lti-ng">
+      <img class="pPhoto" src="./assets/course_design_toolbox.png" alt="image for course design toolbox">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="https://github.com/byuitechops/design-lti-ng">
+        <div class="pName">Course Design Toolbox</div>
+      </a><br>
+      <span class="pHours">40</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">December 2018 - Current</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        This tool has the potential to save course designers and professors at the university tens of thousands of dollars per year collectively. It gives the user a collection of html elements that guides the user into designing good content, and tailors that content to their current need using LTI. I inherited this project from a former coworker, so I had to learn the overall design of the project. I now have the responsibility to add and update features in the tool. Right now, a private version of the tool is the code being developed on, so the code linked to is an outdated version.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">Angular</div>
+<div class="pSkill">NodeJs</div>
+<div class="pSkill">ES6</div>
+<div class="pSkill">C#</div>
+<div class="pSkill">LTI</div>
+<div class="pSkill">HTML</div>
+<div class="pSkill">CSS</div>
+<div class="pSkill">typescript</div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="https://byuitechops.github.io/repository-status-page/">
+      <img class="pPhoto" src="./assets/repository_status_page.png" alt="image for repository status page">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="https://byuitechops.github.io/repository-status-page/">
+        <div class="pName">Repository Status Page</div>
+      </a><br>
+      <span class="pHours">8</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">November 2019</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        In order to create a visual of what projects our team is currently working on, I created this webpage which organizes all of our team&apos;s repositories into three cover-all categories: &apos;In Development&apos;, &apos;In Maintainance&apos;, and &apos;closed&apos;. It dynamically generates the list of repositories our team owns based off of the GitHub API, then searches those repository&apos;s meta data to determine which section it fits best in. This was especially helpful when our office was absorbed by the university&apos;s IT department, and we needed a report of all past and current projects.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">ES6</div>
+<div class="pSkill">HTML</div>
+<div class="pSkill">CSS</div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="https://github.com/byuitechops/canvas-everything-finder">
+      <img class="pPhoto" src="./assets/canvas_everything_finder.png" alt="image for canvas everything finder">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="https://github.com/byuitechops/canvas-everything-finder">
+        <div class="pName">Canvas Everything Finder</div>
+      </a><br>
+      <span class="pHours">52</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">October 2018 - November 2018</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        I improved the memory efficiency of our team&apos;s Canvas-link-finder tool by 93%. I also generalized the tool to be able to do more than search for links. When put up to the task of searching over 15,000 courses for specific details of items, it only used 600MBs of memory at any given time, compared to the 9GBs the previous tool required. It would run searches on 5000 courses in parallel. I reduced the memory footprint by searching the response data as it is recieved, and only keeping the match data so that irrelevant data would fall out of scope at the earliest point possible.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">NodeJs</div>
+<div class="pSkill">ES6</div>
+<div class="pSkill">Async</div>
+<div class="pSkill">Data Extration</div>
+<div class="pSkill">Memory Management</div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="https://github.com/byuitechops/csv-reducer">
+      <img class="pPhoto" src="./assets/mass_maintainance_of_pathway_worldwide_resources.png" alt="image for mass maintainance of pathway worldwide resources">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="https://github.com/byuitechops/csv-reducer">
+        <div class="pName">Mass Maintainance of Pathway Worldwide Resources</div>
+      </a><br>
+      <span class="pHours">112</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">July 2018 - August 2018</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        I saved Pathway Worldwide thousands of dollars by programatically transforming over 7,000 csvs&apos; content from one format into their new updated format. One of the most difficult parts of this project was editing their HTML snippets to follow their new format and styling standards. This was difficult because many of their HTML snippets each followed different standards. The algorithm I defined worked for 99% of their files, leaving very few that needed to be fixed by hand. The description of the project was updated by the stakeholder almost daily. If I were to redo this project, I would have taken a more agile approach to development by having definition modules, which would have kept selector logic seperate from core-alteration logic, thus saving time in the long run.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">NodeJs</div>
+<div class="pSkill">ES6</div>
+<div class="pSkill">Cheerio</div>
+<div class="pSkill">d3-dsv</div>
+<div class="pSkill">JQuery</div>
+<div class="pSkill">HTML</div>
+
+    </div>
+  </div>
+</div>
+<hr></div>
+  <!-- END PROJECTS DIV -->
+  <!-- START END DIV -->
+  <div id="end"></div>
+  <!-- END END DIV -->
+
+
+<footer>
+</footer></body><!-- END BODY --></html>
