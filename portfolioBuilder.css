@@ -1,0 +1,99 @@
+  /* START GENERAL STYLES + Styles Less than 600 PX */
+  .portfolioBuilder {
+    color: #333;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 10px;
+    width: 85%;
+  }
+
+  .portfolioBuilder a {
+    text-decoration: none;
+    color: #333399
+  }
+  .portfolioBuilder a:hover {
+    color: blue;
+  }
+  .portfolioBuilder a:active {
+    color: blue;
+  }
+
+  .portfolioBuilder .centerContent * {
+    text-align: center;
+  }
+  .portfolioBuilder .myName {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .portfolioBuilder .profilePictureDiv {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .portfolioBuilder .profilePictureDiv .profilePicture {
+    height: 150px;
+    max-width: auto;
+  }
+
+  .portfolioBuilder .photoDiv {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  .portfolioBuilder .photoDiv img{
+    height: 200px;
+    width: auto;
+  }
+
+  .portfolioBuilder .pName {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .portfolioBuilder .pSkill {
+    font-size: 0.75em;
+    text-align: center;
+    color: #5b5b5b;
+    font-weight:bolder;
+    height: 30px;
+    min-width: 30px;
+    background-color: #e8e8e8;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+  }
+  /* END GENERAL STYLES + Styles Less than 600 PX */
+  /* START MEDIA QUERY 600-900 PX */
+  @media (min-width: 600px) {
+    .portfolioBuilder {
+      width: 500px;
+    /* Images Stack */
+    }
+  }
+  /* END MEDIA QUERY 600-900 PX */
+  /* START MEDIA QUERY 900-1200 PX */
+  @media (min-width: 900px) {
+    .portfolioBuilder {
+      width: 800px;
+    }
+  /* Images On Left */
+  }
+  /* END MEDIA QUERY 900-1200 PX */
+  /* START MEDIA QUERY 1200+ PX */
+  @media (min-width: 1200px) {
+    .portfolioBuilder {
+      width: 1100px;
+    }
+  }
+  /* END MEDIA QUERY 1200+ PX */
