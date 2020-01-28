@@ -1,6 +1,6 @@
 # Lambdas are Function Expressions Used as Parameters/Aguements/Data
 
-Lambdas are Function Expressions Used as Parameters/Aguements/Data. Anonymous functions are simply unnamed functions.
+Lambdas are function expressions Used as parameters/aguements/data. Anonymous functions are simply unnamed functions.
 
 It matters how they are used, not only how they are defined. 
 
