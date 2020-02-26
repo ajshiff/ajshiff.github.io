@@ -16,7 +16,7 @@
 <!-- A tuple is a way to refer to a member or a member combination from any number of dimensions. 
 https://docs.oracle.com/en/cloud/paas/analytics-cloud/adess/introduction-sets-and-tuples.html -->
 <!-- a tuple [can] consist of members from [one,] two [, or several] dimensions 
-https://docs.oracle.com/en/cloud/paas/analytics-cloud/adess/rules-specifying-sets.html-->
+https://docs.oracle.com/en/cloud/paas/analytics-cloud/adess/rules-specifying-sets.html -->
 
 ## Conclusion
 
