@@ -36,3 +36,5 @@ So, a named or unnamed IIFE would not be considered a lambda unless it's also a 
 This distiction is important, beacause if one who is learning functional programming incorrectly thinks that anonymous functions and lambda functions are equivilent and that they are only useful when needing to skip naming a function that only needs to be used once, then the point and power of lambda functions is missed and very likely lost. 
 
 When understanding that a function expression can be used as input to a higher order function, then the power of lambda functions are manifest. 
+
+Lambda functions are allowed to be anonymous, but the anonymity of a function does not define a lambda.
