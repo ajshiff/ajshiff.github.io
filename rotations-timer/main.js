@@ -19,8 +19,12 @@
         input.disabled = true
         for (const time of times) {
             console.log(`starting ${time}ms timer`)
-            displays.minutesRemaining.innerHTML = `${time / 60000}`
-            await wait(time)
+            for (let timeRemaining = time; timeRemaining > 0; timeRemaining -= 1000){
+                console.log(timeRemaining)
+                displays.minutesRemaining.innerHTML = `${timeRemaining / 1000}`
+                await wait(1000)
+            }
+            displays.minutesRemaining.innerHTML = 0
             console.log(`finished waiting ${time}ms`)
             await soundToPlay()
         }
