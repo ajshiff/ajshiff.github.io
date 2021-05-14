@@ -15,7 +15,8 @@
         return new Promise(resolve => setTimeout(resolve, time));
     }
 
-    async function run(times, soundToPlay, displays) {
+    async function run(input, times, soundToPlay, displays) {
+        input.disabled = true
         for (const time of times) {
             console.log(`starting ${time}ms timer`)
             displays.minutesRemaining.innerHTML = `${time / 60000}`
@@ -23,6 +24,7 @@
             console.log(`finished waiting ${time}ms`)
             await soundToPlay()
         }
+        input.disabled = false
     }
 
     async function playSound (audioClip, clipDuration, times) {
@@ -34,7 +36,7 @@
     }
 
     function initializeEventListeners (inputs, waitTimes, audioElements, displayElements) {
-        inputs.startTimer.addEventListener('click', () => run(waitTimes, async () => await playSound(audioElements.cuckooSound, 2100, 5), displayElements))
+        inputs.startTimer.addEventListener('click', () => run(inputs.startTimer, waitTimes, async () => await playSound(audioElements.cuckooSound, 2100, 5), displayElements))
         inputs.playSound.addEventListener('click', () => playSound(audioElements.cuckooSound, 2100, 1))
     }
 
