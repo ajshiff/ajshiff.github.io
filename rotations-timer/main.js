@@ -21,7 +21,10 @@
             console.log(`starting ${time}ms timer`)
             for (let timeRemaining = time; timeRemaining > 0; timeRemaining -= 1000){
                 console.log(timeRemaining)
-                displays.minutesRemaining.innerHTML = `${timeRemaining / 1000}`
+                let secondsRemaining = timeRemaining / 1000
+                let minutesRemaining = Math.floor(secondsRemaining / 60)
+                let remainingSeconds = secondsRemaining - (minutesRemaining * 60)
+                displays.minutesRemaining.innerHTML = `${minutesRemaining}:${remainingSeconds}`
                 await wait(1000)
             }
             displays.minutesRemaining.innerHTML = 0
